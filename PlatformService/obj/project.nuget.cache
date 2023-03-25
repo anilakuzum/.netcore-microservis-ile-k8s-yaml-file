@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ns8yymNTxiOSt7TsjuIQ21oFtmKEuBTzD/zVpq5gF9bSgjLLpXH7yrvxD7YvvQ2RMJihRNBAkVlb6SmCq5NEsg==",
+  "dgSpecHash": "zkgaZT8B/0qD5Gyg+JIbc97Llig6XfBmk8ySLbwhanciL7zO/ZLW1qrQT6K2mdSbtNUVnxmhj2fEF/P3NwBgow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\anil.akuzum\\Desktop\\Codes\\PlatformService\\PlatformService.csproj",
+  "projectFilePath": "C:\\Users\\anil.akuzum\\Desktop\\Codes\\.netcore-miroservis-ile-k8s-yaml-file\\PlatformService\\PlatformService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anil.akuzum\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\anil.akuzum\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

@@ -6655,11 +6655,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anil.akuzum\\Desktop\\Codes\\PlatformService\\PlatformService.csproj",
+      "projectUniqueName": "C:\\Users\\anil.akuzum\\Desktop\\Codes\\.netcore-miroservis-ile-k8s-yaml-file\\PlatformService\\PlatformService.csproj",
       "projectName": "PlatformService",
-      "projectPath": "C:\\Users\\anil.akuzum\\Desktop\\Codes\\PlatformService\\PlatformService.csproj",
+      "projectPath": "C:\\Users\\anil.akuzum\\Desktop\\Codes\\.netcore-miroservis-ile-k8s-yaml-file\\PlatformService\\PlatformService.csproj",
       "packagesPath": "C:\\Users\\anil.akuzum\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anil.akuzum\\Desktop\\Codes\\PlatformService\\obj\\",
+      "outputPath": "C:\\Users\\anil.akuzum\\Desktop\\Codes\\.netcore-miroservis-ile-k8s-yaml-file\\PlatformService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
