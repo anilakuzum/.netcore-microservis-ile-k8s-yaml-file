@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name:  commands-deployment
+  namespace: default
+spec:
+  selector:
+    matchLabels:
+      app: commandervice
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app:  commandervice
+    spec:
+      containers:
+      - name:  commandervice
+        image:  anilakuzum/commandervice:latest
+        resources:
+          requests:
+            cpu: 100m
+            memory: 100Mi
+          limits:
+            cpu: 100m
+            memory: 100Mi
+      restartPolicy: Always
+---
+apiVersion: apps/v1
+kind: Service
+metadata:
+  name:  command-clusterip-srv
+spec:
+  type: ClusterIP
+  selector: 
+     app: commandservice
+  ports:
+  - name: commandservice
+    protocol: TCP
+    port: 80
+    targetPort: 80
